@@ -3,7 +3,7 @@
 
 This repository contains a Collaborative Filtering Movie Recommender System using Python (Non-Negative Matrix Factorization).
 
-### Methodology
+Methodology
 
 Non-Negative Matrix Factorization (NMF) is a collaborative filtering method that can be used to build recommender systems. It works by decomposing the user-item interaction matrix into two lower-dimensional matrices: a user factor matrix and an item factor matrix. The user factor matrix represents the user's preferences for different latent factors, while the item factor matrix represents the item's characteristics with respect to the same latent factors.
 
@@ -11,13 +11,13 @@ To train an NMF recommender system, we first need to collect a dataset of user-i
 
 Once the model is trained, we can use it to generate recommendations for users by multiplying the user factor matrix and the item factor matrix together. This will produce a predicted rating matrix, which we can then use to recommend items to users with the highest predicted ratings.
 
-### Advantages of NMF
+Advantages of NMF
 
 * NMF is a simple and efficient algorithm that can be easily implemented.
 * NMF is interpretable, meaning that we can use the user factor matrix and the item factor matrix to understand the user's preferences and the item's characteristics.
 * NMF is robust to noise and missing data.
 
-### Comprehensive Data Visualization
+Comprehensive Data Visualization
 
 Comprehensive data visualization is the process of using visual representations to communicate complex data in a way that is easy to understand and interpret. It is a powerful tool that can be used to identify trends, patterns, and relationships in data, and to communicate insights to others.
 
@@ -60,7 +60,7 @@ NumPy
 Pandas
 Scikit-learn
 
-### Python Packages Used
+Python Packages Used
 
 The following Python packages are used in the code:
 
@@ -74,13 +74,13 @@ The following Python packages are used in the code:
 
 These packages are commonly used for machine learning and data science
 
-###To use the recommender system:
+To use the recommender system:
 
 Clone this repository to your local machine.
 Install the required dependencies.
 Run the train.py script to train the recommender system on the dataset of movie ratings.
 Run the recommend.py script to generate recommendations for a given user.
 
-###Conclusion:
+Conclusion:
 
 This Collaborative Filtering Movie Recommender System is a simple but effective way to generate personalized movie recommendations for users. It can be used to build a recommendation engine for a variety of applications, such as streaming services, social media platforms, and e-commerce websites.
